@@ -1,0 +1,10 @@
+DatabricksGroup:
+  Type: AWS::ServiceCatalog::CloudFormationProvisionedProduct
+  Properties:
+    ProductName: Databricks Group
+    ProvisioningArtifactName: 0.1.2
+    ProvisioningParameters:
+      - Key: Name
+        Value: acc-zps-b2b-partner-business
+      - Key: TeamId
+        Value: 50144366
